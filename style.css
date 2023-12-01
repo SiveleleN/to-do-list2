@@ -1,0 +1,79 @@
+/*styling my body*/
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/*styling my container*/
+.container {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.todolist {
+    text-align: center;
+}
+
+h1 {
+    color: gold;
+}
+
+.row {
+    margin-top: 20px;
+}
+
+#input-box {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: yellowgreen;
+    color: darkolivegreen;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.new-task {
+    border-bottom: 1px solid gold;
+    padding: 10px;
+    position: relative;
+}
+/*styling the list results*/
+.new-task.completed {
+    text-decoration: line-through;
+    color: goldenrod;
+}
+ /*styling the closing part*/
+.close {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    color: goldenrod;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #f44336;
+}
